@@ -80,7 +80,7 @@
 - We frown at code repetitions and we expect a more clean code.
 - We value code reusability.
 - We value offline first where necessary.
-- We love well documented codebase with good naming conversions.
+- We love well documented codebase with good naming conventions.
 - We favour good code structure.
 
 **Questions? We love to answer: <careers@clane.com>**
