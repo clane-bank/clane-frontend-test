@@ -10,7 +10,7 @@
 - A form to Create and update news. 
 
 ### API Endpoints
-  > BaseUrl for the api: `http(s)://5bee92827839000013e6faed.mockapi.io/clane/api/v2`
+  > BaseUrl for the api: `https://5e4bfc87a641ed0014b02740.mockapi.io/api/clane/`
 
   |Method|Endpoint|Description|
   |------|--------|-----------|

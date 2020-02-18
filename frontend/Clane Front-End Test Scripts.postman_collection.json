@@ -14,7 +14,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://5e4bfc87a641ed0014b02740.mockapi.io/news?page=1&limit=1",
+							"raw": "https://5e4bfc87a641ed0014b02740.mockapi.io/api/clane/news?page=1&limit=1",
 							"protocol": "https",
 							"host": [
 								"5e4bfc87a641ed0014b02740",
@@ -22,6 +22,8 @@
 								"io"
 							],
 							"path": [
+								"api",
+								"clane",
 								"news"
 							],
 							"query": [
@@ -43,7 +45,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "https://5e4bfc87a641ed0014b02740.mockapi.io/news/51"
+						"url": "https://5e4bfc87a641ed0014b02740.mockapi.io/api/clane/news/1"
 					},
 					"response": []
 				},
@@ -68,7 +70,7 @@
 								}
 							}
 						},
-						"url": "https://5e4bfc87a641ed0014b02740.mockapi.io/news"
+						"url": "https://5e4bfc87a641ed0014b02740.mockapi.io/api/clane/news"
 					},
 					"response": []
 				},
@@ -93,7 +95,7 @@
 								}
 							}
 						},
-						"url": "https://5e4bfc87a641ed0014b02740.mockapi.io/news/51"
+						"url": "https://5e4bfc87a641ed0014b02740.mockapi.io/api/clane/news/51"
 					},
 					"response": []
 				},
@@ -118,7 +120,7 @@
 								}
 							}
 						},
-						"url": "https://5e4bfc87a641ed0014b02740.mockapi.io/news/51"
+						"url": "https://5e4bfc87a641ed0014b02740.mockapi.io/api/clane/news/51"
 					},
 					"response": []
 				}
@@ -134,7 +136,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://5e4bfc87a641ed0014b02740.mockapi.io/news/1/comments?page=1&limit=10",
+							"raw": "https://5e4bfc87a641ed0014b02740.mockapi.io/api/clane/news/1/comments?page=1&limit=10",
 							"protocol": "https",
 							"host": [
 								"5e4bfc87a641ed0014b02740",
@@ -142,6 +144,8 @@
 								"io"
 							],
 							"path": [
+								"api",
+								"clane",
 								"news",
 								"1",
 								"comments"
@@ -165,7 +169,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "https://5e4bfc87a641ed0014b02740.mockapi.io/news/1/comments/1"
+						"url": "https://5e4bfc87a641ed0014b02740.mockapi.io/api/clane/news/1/comments/1"
 					},
 					"response": []
 				},
@@ -190,7 +194,7 @@
 								}
 							}
 						},
-						"url": "https://5e4bfc87a641ed0014b02740.mockapi.io/news/1/comments"
+						"url": "https://5e4bfc87a641ed0014b02740.mockapi.io/api/clane/news/1/comments"
 					},
 					"response": []
 				},
@@ -215,7 +219,7 @@
 								}
 							}
 						},
-						"url": "https://5e4bfc87a641ed0014b02740.mockapi.io/news/1/comments/51"
+						"url": "https://5e4bfc87a641ed0014b02740.mockapi.io/api/clane/news/1/comments/51"
 					},
 					"response": []
 				},
@@ -240,7 +244,7 @@
 								}
 							}
 						},
-						"url": "https://5e4bfc87a641ed0014b02740.mockapi.io/news/1/comments/51"
+						"url": "https://5e4bfc87a641ed0014b02740.mockapi.io/api/clane/news/1/comments/51"
 					},
 					"response": []
 				}
@@ -256,7 +260,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://5e4bfc87a641ed0014b02740.mockapi.io/news/1/images?page=1&limit=10",
+							"raw": "https://5e4bfc87a641ed0014b02740.mockapi.io/api/clane/news/1/images?page=1&limit=10",
 							"protocol": "https",
 							"host": [
 								"5e4bfc87a641ed0014b02740",
@@ -264,6 +268,8 @@
 								"io"
 							],
 							"path": [
+								"api",
+								"clane",
 								"news",
 								"1",
 								"images"
@@ -287,7 +293,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "https://5e4bfc87a641ed0014b02740.mockapi.io/news/1/images/1"
+						"url": "https://5e4bfc87a641ed0014b02740.mockapi.io/api/clane/news/1/images/1"
 					},
 					"response": []
 				},
@@ -312,7 +318,7 @@
 								}
 							}
 						},
-						"url": "https://5e4bfc87a641ed0014b02740.mockapi.io/news/1/images"
+						"url": "https://5e4bfc87a641ed0014b02740.mockapi.io/api/clane/news/1/images"
 					},
 					"response": []
 				},
@@ -337,7 +343,7 @@
 								}
 							}
 						},
-						"url": "https://5e4bfc87a641ed0014b02740.mockapi.io/news/1/images/51"
+						"url": "https://5e4bfc87a641ed0014b02740.mockapi.io/api/clane/news/1/images/51"
 					},
 					"response": []
 				},
@@ -362,7 +368,7 @@
 								}
 							}
 						},
-						"url": "https://5e4bfc87a641ed0014b02740.mockapi.io/news/1/images/51"
+						"url": "https://5e4bfc87a641ed0014b02740.mockapi.io/api/clane/news/1/images/51"
 					},
 					"response": []
 				}
