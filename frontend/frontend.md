@@ -10,7 +10,7 @@
 - A form to Create and update news. 
 
 ### API Endpoints
-  > BaseUrl for the api: `http(s)://5bee92827839000013e6faed.mockapi.io/clane/api/v2`
+  > BaseUrl for the api: `https://5e4bfc87a641ed0014b02740.mockapi.io/api/clane/`
 
   |Method|Endpoint|Description|
   |------|--------|-----------|
@@ -31,27 +31,25 @@
   Sample Data from Creating a news news
   ```json
   {
-	"author": "Mr. Eddy Brad",
-	"avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/scott_riley/128.jpg",
-	"title": "Enterprise-wide eco-maniac core",
-	"url": "http://tiana.com"
+      "author": "Seun Matt",
+      "title": "This is a title"
   }
   ```
   Sample Data for Creating Comment
   ```json
   {
-	"newsId": "1",
-	"name": "Orlo Nitzsche",
-	"avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/koridhandy/128.jpg",
-	"comment": "This is a sample comment"
+      "newsId": 1,
+      "name": "Jan Wuckert",
+      "avatar": "http://lorempixel.com/640/480/fashion",
+      "comment": "This is me saying you're bluffing!"
   }
   ```
 
   Sample Data for adding Image
   ```json
   {
-	"newsId": "1",
-	"image": "http://lorempixel.com/640/480/city"
+      "newsId": 1,
+      "image": "http://lorempixel.com/640/480/fashion"
   }
   ```
 
@@ -69,14 +67,15 @@
 - (Optional) Deploy as a public site to your own host.
 - (Optional) PWA
 - (Optional) Mobile Responsive
+- The Postman collection for the APIs [is located here](Clane%20Front-End%20Test%20Scripts.postman_collection.json)
 
 ### Expection
 - This challange should take around 4 hours to complete.
 - You can work on it at your own schedule, but a complete solution is expected within 7 days.
 - Your code should be modular, each module should focus on doing one thing and do it well.
-- Please over-engineering is allowed.
+- Please, over-engineering is allowed.
 - Error handling and retry if backend is busy.
-- Use of third-party library is prohibited.
+- Use of third-party libraries is prohibited.
 - We frown at code repetitions and we expect a more clean code.
 - We value code reusability.
 - We value offline first where necessary.
